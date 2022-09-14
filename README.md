@@ -20,6 +20,8 @@ speed of the UV, to follow the other UV, and maintain the fixed gap.
 3. Movement of the UV from source to destination along a black path silhouetted against a
 white background in the least possible time with PID control used as a compensating
 mechanism.
+
+
 Based on the reference, error, and output signals, the designed PID controller generates appropriate
 signals to the left and right motors of the UV to track the path. Three photodiodes (EE-SF5(B))
 are used to detect the path and generate appropriate signals for the UV to track the path. An
